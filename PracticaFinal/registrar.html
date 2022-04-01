@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos_carlos.css">
+    <title>Registrar</title>
+</head>
+<body>
+    
+    <form action="registro.php" method="post">
+    <fieldset>
+    <h1>Bienvenid@</h1>    
+    <h2>Ingresa tus datos</h2>
+    <label for="nombre">Nombre</label>
+    <input type="text" required="true" name="nombre" id="nombre" placeholder=" Nombre">
+    <br>
+    <br>
+    <label> Numero de Control </label>
+    <input type="number" name="num_control" id="num_control" placeholder="Ejem. 18111427">
+    <br>
+    <br>
+    <label for="carrera"> Carrera </label>
+    <select name="carrera" id="carrera">
+        <option value="" disabled selected>-- Seleccione --</option>
+        <option value="Ing. Sistemas Computacionales">Sistemas Computacionales</option>
+        <option value="Ing. Industrial">Industrial</option>
+        <option value="Ing. Mecatronica">Mecatronica</option>
+        <option value="Ing. Alimentarias">Alimentarias</option>
+    </select>
+    <br>
+    <br>
+    <label for="numb_telefono"> Numero de Teléfono </label>
+    <input type="number" name="numb_telefono" id="numb_telefono" placeholder="#">
+    <br>
+    <br>
+    <label for="telf_emergencia"> Teléfono de Emergencia  </label>
+    <input type="number" name="telf_emergencia" id="telf_emergencia" placeholder="#">
+    <br>
+    <br>
+    <label for="correo_electronico"> Correo electronico </label> 
+    <input type="email" required="true" name="correo_electronico" placeholder="Correo Electronico">
+    <br>
+    <br>
+    <label for="contraseña "> Contraseña</label> 
+    <input type="password" required name="password" placeholder="contraseña">
+    <br>
+    <br>
+    <label for="tipo_cuenta"> Tipo de Cuenta<label>
+    <select name="tipo_cuenta" id="tipo_cuenta"> 
+        <option value="" disabled selected>-- Seleccione --</option>
+        <option value="estudiante"> Estudiante </option>
+        <option value="docente"> Docente </option>
+    </select>
+    <br>
+    <br>
+    <button type="submit" name="registrar" value="Registrar"> Registrar </button>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-image: url(itesg.png);
+    background-size: 1600px 780px;
+}
+
+form{
+    text-align: center;
+    padding: 50px 220px;
+    color:crimson;
+    font-size: 50px;
+}
+
+fieldset{
+    background-color: rgba(150, 70, 174, 0.862);
+}
+
+
+h1{
+    text-align: left;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+}

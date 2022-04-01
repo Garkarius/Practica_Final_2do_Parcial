@@ -5,21 +5,40 @@ body{
 
 form{
     text-align: center;
-    padding: 50px 220px;
-    color:crimson;
+    padding: 45px 220px;
+    color:aquamarine;
     font-size: 50px;
 }
 
-fieldset{
-    background-color: rgba(150, 70, 174, 0.862);
+.contenedor{
+    background-color: rgba(218, 27, 199, 0.424);
 }
-
 
 h1{
-    text-align: left;
+    text-align: center;
     font-size: 50px;
+    color:#4529d2;
 }
 
 h2{
-    text-align: center;
+    text-align:right;
+}
+
+.pregunta{
+    text-align: center; 
+    color: #3bb64f;
+}
+
+#carita{
+    text-align: center; 
+    color: rgb(230, 241, 13);
+    font-size: 40px;
+}
+
+input[type="button"]{
+    color: rgb(14, 203, 237);
+}
+
+button[type="submit"]{
+    color: rgb(255, 136, 0);
 }
